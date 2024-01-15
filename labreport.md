@@ -5,8 +5,18 @@
 
 The command `cd` stands for change directory and it is used to change the current working directory. However, in this example, when no command line arguments are specified, `cd` takes you to the home directory. 
 
-## Example #2: cd with a path to a directory
+## Example #2: `cd` with a path to a directory
 
-## Example #3: cd with a path to a file 
+## Example #3: `cd` with a path to a file 
 
-## Example #4: 
+## Example #4: `ls` with no arguments
+
+## Example #5: `ls` with a path to a directory
+
+## Example #6: `ls` with a path to a file
+
+## Example #7: `cat` with no arguments
+
+## Example #8: `cat` with a path to a directory
+
+## Example #9: `cat` with a path to afile 
