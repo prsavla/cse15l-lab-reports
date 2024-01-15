@@ -1,20 +1,21 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 
 ## Example #1: cd with no arguments
-![Image](example1.1)
+```
+[user@sahara ~/lecture1]$ cd
+[user@sahara ~]$ 
+```
 
 The command `cd` stands for change directory and it is used to change the current working directory. However, in this example, when no command line arguments are specified, `cd` takes you to the home directory. 
 
 ## Example #2: `cd` with a path to a directory
 ```
-#code block
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
 
 ## Example #3: `cd` with a path to a file 
 ```
-#code block
 [user@sahara ~/lecture1/messages]$ cd hi.txt
 bash: cd: hi.txt: Not a directory
 [user@sahara ~/lecture1/messages]$
@@ -22,7 +23,6 @@ bash: cd: hi.txt: Not a directory
 
 ## Example #4: `ls` with no arguments
 ```
-#code block
 [user@sahara ~]$ ls
 lecture1
 [user@sahara ~]$
@@ -30,7 +30,6 @@ lecture1
 
 ## Example #5: `ls` with a path to a directory
 ```
-#code block
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$
@@ -38,7 +37,6 @@ Hello.class  Hello.java  messages  README
 
 ## Example #6: `ls` with a path to a file
 ```
-#code block
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
 [user@sahara ~/lecture1]$
@@ -46,7 +44,6 @@ Hello.java
 
 ## Example #7: `cat` with no arguments
 ```
-#code block
 [user@sahara ~]$ cat
 hello test message
 hello test message
@@ -58,7 +55,6 @@ what does cat do?
 
 ## Example #8: `cat` with a path to a directory
 ```
-#code block
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 [user@sahara ~]$
@@ -66,7 +62,6 @@ cat: lecture1: Is a directory
 
 ## Example #9: `cat` with a path to a file
 ```
-#code block
 [user@sahara ~/lecture1]$ cat Hello.java
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
