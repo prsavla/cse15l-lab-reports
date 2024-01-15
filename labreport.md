@@ -21,7 +21,7 @@ When you use `cd` with a path to directory, you are entering the directory. In t
 bash: cd: hi.txt: Not a directory
 [user@sahara ~/lecture1/messages]$
 ```
-Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the working directory was `messages`.
+Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the current working directory was `messages`.
 
 ## Example #4: `ls` with no arguments
 ```
@@ -29,7 +29,7 @@ Using `cd` with a path to a file will give an error message because `cd` is only
 lecture1
 [user@sahara ~]$
 ```
-`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the working directory is the home directory. 
+`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the current working directory is the home directory. 
 
 ## Example #5: `ls` with a path to a directory
 ```
@@ -57,7 +57,7 @@ what does cat do?
 ^C
 [user@sahara ~]$
 ```
-The `cat` command stands for concactenate and it used to read the contents of a file without opening the file. However, when no command line arguments are specified, the `cat` command just reads from the terminal input and displays it into terminal output. When typing in `hello test message` as terminal input, `cat` will just display the same input as output. You have to use `^C` to break out of the task.
+The `cat` command stands for concactenate and it used to read the contents of a file without opening the file. However, when no command line arguments are specified, the `cat` command just reads from the terminal input and displays it into terminal output. When typing in `hello test message` as terminal input, `cat` will just display the same input as output. You have to use `^C` to break out of the task. The current working directory in this case is the home directory.
 
 ## Example #8: `cat` with a path to a directory
 ```
@@ -65,7 +65,7 @@ The `cat` command stands for concactenate and it used to read the contents of a 
 cat: lecture1: Is a directory
 [user@sahara ~]$
 ```
-Because the `cat ` command is used to list the contents of a file, an error message is thrown when using it as a path to a directory. `cat` only works with files and the terminal outputs that lecture1 is a directory. 
+Because the `cat ` command is used to list the contents of a file, an error message is thrown when using it as a path to a directory. `cat` only works with files and the terminal outputs that lecture1 is a directory. In this case, the current working directory is also the home directory.
 
 ## Example #9: `cat` with a path to a file
 ```
@@ -82,5 +82,5 @@ public class Hello {
   }
 }[user@sahara ~/lecture1]$
 ```
-When using `cat` with a path to a file, it will read out the whole file as output without having to open it. Here, the conents of the Hello.java program are displayed. 
+When using `cat` with a path to a file, it will read out the whole file as output without having to open it. Here, the conents of the Hello.java program are displayed and the current working directory is `lecture1`.
 
