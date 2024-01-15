@@ -6,9 +6,11 @@
 The command `cd` stands for change directory and it is used to change the current working directory. However, in this example, when no command line arguments are specified, `cd` takes you to the home directory. 
 
 ## Example #2: `cd` with a path to a directory
+```
 #code block
 [user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ 
+[user@sahara ~/lecture1]$
+```
 
 ## Example #3: `cd` with a path to a file 
 #
