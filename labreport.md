@@ -38,7 +38,7 @@ lecture1
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ 
 ```
-| Not an error | In this example, the working directory is `/home`. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for `ls lecture1` to work, the current working directory cannot be `/home/lecture1` otherwise an error message is thrown.
+| Not an error | In this example, the working directory is `/home`. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for `ls lecture1` to work, the current working directory cannot be `/home/lecture1`, otherwise an error message is thrown.
 
 ## Example #6: `ls` with a path to a file
 ```
