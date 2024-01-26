@@ -7,14 +7,14 @@
 [user@sahara ~]$ 
 ```
 
-| Not an error | The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is `/home/lecture1` and when `cd` is used with no command line arguments, you are taken to the home directory.
+| Not an error | The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is `/home/lecture1` and when `cd` is used with no command line arguments, you are taken back to the home directory from wherever you are by default.
 
 ## Example #2: `cd` with a path to a directory
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-| Not an error | When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is the home directory and using `cd` with a path to `lecture1` changes the current working directory to `/home/lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
+| Not an error | When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is `/home` and using `cd` with a path to `lecture1` changes the current working directory to `/home/lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
 
 ## Example #3: `cd` with a path to a file 
 ```
@@ -22,7 +22,7 @@
 bash: cd: hi.txt: Not a directory
 [user@sahara ~/lecture1/messages]$
 ```
-| Error | Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the current working directory was `messages`.
+| Error | Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the current working directory was `/home/lecture1/messages`.
 
 ## Example #4: `ls` with no arguments
 ```
@@ -38,7 +38,7 @@ lecture1
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ 
 ```
-| Not an error | In this example, the working directory is `/home`. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for this to work, the current working directory cannot be `/home/lecture1` for `ls lecture1` to work, otherwise an error message is thrown.
+| Not an error | In this example, the working directory is `/home`. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for `ls lecture1` to work, the current working directory cannot be `/home/lecture1` otherwise an error message is thrown.
 
 ## Example #6: `ls` with a path to a file
 ```
