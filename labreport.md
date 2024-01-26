@@ -7,7 +7,7 @@
 [user@sahara ~]$ 
 ```
 
-| Not an error | The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is `/home/lecture1` and when `cd` is used with no command line arguments, you are taken back to the home directory from wherever you are by default.
+| Not an error1 | The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is `/home/lecture1` and when `cd` is used with no command line arguments, you are taken back to the home directory from wherever you are by default.
 
 ## Example #2: `cd` with a path to a directory
 ```
