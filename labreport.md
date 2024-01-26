@@ -14,7 +14,7 @@
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-| Not an error | When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is the home directory and using `cd` with a path to `lecture1` changes the current working directory to `lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
+| Not an error | When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is the home directory and using `cd` with a path to `lecture1` changes the current working directory to `/home/lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
 
 ## Example #3: `cd` with a path to a file 
 ```
@@ -30,7 +30,7 @@ bash: cd: hi.txt: Not a directory
 lecture1
 [user@sahara ~]$
 ```
-| Not an error |`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the current working directory is the home directory. 
+| Not an error |`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the current working directory is `/home`. 
 
 ## Example #5: `ls` with a path to a directory
 ```
@@ -38,7 +38,7 @@ lecture1
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ 
 ```
-| Not an error | In this example, the working directory is the home directory. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for this to work, the current working directory cannot be `lecture1`, `lecture1` has to be a subdirectory of home. 
+| Not an error | In this example, the working directory is `/home`. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for this to work, the current working directory cannot be `/home/lecture1` for `ls lecture1` to work, otherwise an error message is thrown.
 
 ## Example #6: `ls` with a path to a file
 ```
@@ -46,7 +46,7 @@ Hello.class  Hello.java  messages  README
 Hello.java
 [user@sahara ~/lecture1]$
 ```
-| Not an error | The current working directory is `lecture1`. When using `ls` with a path to a file, it will simply display the file name. Note that Hello.java has to be a file inside `lecture1` for this to work. 
+| Not an error | The current working directory is `/home/lecture1`. When using `ls` with a path to a file, it will simply display the file name. Note that Hello.java has to be a file inside `lecture1` for this to work. 
 
 ## Example #7: `cat` with no arguments
 ```
