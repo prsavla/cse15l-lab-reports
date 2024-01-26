@@ -7,14 +7,14 @@
 [user@sahara ~]$ 
 ```
 
-The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is lecture1 and when `cd` is used with no command line arguments, you are taken to the home directory.
+| Not an error | The command `cd` stands for change directory and it is used to change the current working directory. In this example, the current working directory is lecture1 and when `cd` is used with no command line arguments, you are taken to the home directory.
 
 ## Example #2: `cd` with a path to a directory
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is the home directory and using `cd` with a path to `lecture1` changes the current working directory to `lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
+| Not an error | When you use `cd` with a path to directory, you are entering the directory. In this case, the current working directory is the home directory and using `cd` with a path to `lecture1` changes the current working directory to `lecture1`. Note that in this case, `lecture1` has to be a sub directory of the home directory for this to work. 
 
 ## Example #3: `cd` with a path to a file 
 ```
@@ -22,7 +22,7 @@ When you use `cd` with a path to directory, you are entering the directory. In t
 bash: cd: hi.txt: Not a directory
 [user@sahara ~/lecture1/messages]$
 ```
-Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the current working directory was `messages`.
+| Error | Using `cd` with a path to a file will give an error message because `cd` is only meant to be used only when working with directories or changing from parent to subdirectories. It does not work with files! Note that in this example, the current working directory was `messages`.
 
 ## Example #4: `ls` with no arguments
 ```
@@ -30,7 +30,7 @@ Using `cd` with a path to a file will give an error message because `cd` is only
 lecture1
 [user@sahara ~]$
 ```
-`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the current working directory is the home directory. 
+| Not an error |`ls` stands for list and when used with no arguments, it lists all the files in the current working directory. In this case, the current working directory is the home directory. 
 
 ## Example #5: `ls` with a path to a directory
 ```
@@ -38,7 +38,7 @@ lecture1
 Hello.class  Hello.java  messages  README
 [user@sahara ~]$ 
 ```
-In this example, the working directory is the home directory. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for this to work, the current working directory cannot be `lecture1`, `lecture1` has to be a subdirectory of home. 
+| Not an error | In this example, the working directory is the home directory. When using `ls` with a path to a directory, it will list all the files in the directory. Note that for this to work, the current working directory cannot be `lecture1`, `lecture1` has to be a subdirectory of home. 
 
 ## Example #6: `ls` with a path to a file
 ```
@@ -46,7 +46,7 @@ In this example, the working directory is the home directory. When using `ls` wi
 Hello.java
 [user@sahara ~/lecture1]$
 ```
-The current working directory is `lecture1`. When using `ls` with a path to a file, it will simply display the file name. Note that Hello.java has to be a file inside `lecture1` for this to work. 
+| Not an error | The current working directory is `lecture1`. When using `ls` with a path to a file, it will simply display the file name. Note that Hello.java has to be a file inside `lecture1` for this to work. 
 
 ## Example #7: `cat` with no arguments
 ```
@@ -58,7 +58,7 @@ what does cat do?
 ^C
 [user@sahara ~]$
 ```
-The `cat` command stands for concactenate and it used to read the contents of a file without opening the file. However, when no command line arguments are specified, the `cat` command just reads from the terminal input and displays it into terminal output. When typing in `hello test message` as terminal input, `cat` will just display the same input as output. You have to use `^C` to break out of the task. The current working directory in this case is the home directory.
+| Not an error | The `cat` command stands for concactenate and it used to read the contents of a file without opening the file. However, when no command line arguments are specified, the `cat` command just reads from the terminal input and displays it into terminal output. When typing in `hello test message` as terminal input, `cat` will just display the same input as output. You have to use `^C` to break out of the task. The current working directory in this case is the home directory.
 
 ## Example #8: `cat` with a path to a directory
 ```
@@ -66,7 +66,7 @@ The `cat` command stands for concactenate and it used to read the contents of a 
 cat: lecture1: Is a directory
 [user@sahara ~]$
 ```
-Because the `cat ` command is used to list the contents of a file, an error message is thrown when using it as a path to a directory. `cat` only works with files and the terminal outputs that lecture1 is a directory. In this case, the current working directory is also the home directory.
+| Error | Because the `cat ` command is used to list the contents of a file, an error message is thrown when using it as a path to a directory. `cat` only works with files and the terminal outputs that lecture1 is a directory. In this case, the current working directory is also the home directory.
 
 ## Example #9: `cat` with a path to a file
 ```
@@ -83,5 +83,5 @@ public class Hello {
   }
 }[user@sahara ~/lecture1]$
 ```
-When using `cat` with a path to a file, it will read out the whole file as output without having to open it. Here, the conents of the Hello.java program are displayed and the current working directory is `lecture1`.
+| Not an error | When using `cat` with a path to a file, it will read out the whole file as output without having to open it. Here, the conents of the Hello.java program are displayed and the current working directory is `lecture1`.
 
