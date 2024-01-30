@@ -3,7 +3,7 @@
 
 Overview: In this lab, I will be going over how I created by own Chat Server using Java. It will be split up into 3 parts. In Part 1, I go over my code for how I made the Chat Server and I will explain the methods, arguments, and resulting output. In Part 2, I go over the paths to my public and private keys for logging onto ieng6.ucsd.edu. There is a way to log on without entering my password everytime. In Part 3, I go over what I learned from the previous two labs.
 
-### Part 1 | Code For Chat Server:
+### Part 1 Code For Chat Server:
 
 ![Code For Chat Server](part1.png)
 
