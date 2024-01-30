@@ -11,10 +11,10 @@ Two Screenshots Of Using Add Message:
 
 ![Using Add Message #2](part3.png)
 
-Absolute path to the private key for my SSH key for logging into ieng6:
+Absolute path to my private key for logging into ieng6:
 ![Private Key](part5.png)
 
-Absolute path to the public key for my SSH key for logging into ieng6:
+Absolute path to my public key for logging into ieng6:
 ![Public Key](part4.png)
 
 Logging into my ieng6 server without being asked for password:
