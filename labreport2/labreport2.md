@@ -7,7 +7,7 @@ Overview: In this lab, I will be going over how I created by own Chat Server usi
 
 ![Code For Chat Server](part1.png)
 
-### ** Two Screenshots Of Using Add Message:**
+### Two Screenshots Of Using Add Message:
 ![Using Add Message #1](part2.png)
 **Methods That Are Called In the Code:** Primarily, when the user first types in `localhost:4001/` the `handleRequest()` method is called which performs different actions depending on the path provided. If a single `/` is present as the path, the program simply outputs the chat log. If   `/add-message` is provided as the path with queries such as `/add-message?s=Hello&user=jpolitz`, then the "Hello" from user "jpolitz" is added to the Chat Log. Helper methods like `.getPath()`, `.contains()`, `.substring()`, `.indexOf()`, `.getQuery()` are all used to assist in extracting the right fields from the query. 
 
