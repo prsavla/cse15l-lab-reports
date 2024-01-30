@@ -3,4 +3,4 @@
 
 ### Part 1:
 Code For Chat Server:
-!![Code For Chat Server](image.png)
+!![Code For Chat Server](part1.png)
