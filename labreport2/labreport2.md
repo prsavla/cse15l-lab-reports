@@ -28,7 +28,7 @@ _**Overview**_: In this lab, I will be going over how I created by own Chat Serv
 ![Private Key](part5.png)
 
 **Absolute path to my public key for logging into ieng6:**
-![Public Key](part4.png)
+![Public Key](fix.png)
 
 **Logging into my ieng6 server without being asked for password:**
 ![No password](part6.png)
