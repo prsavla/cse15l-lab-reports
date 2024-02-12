@@ -30,6 +30,7 @@ Here is an input that does not induce a failure:
   }
 ```
 Here is the JUnit output (Symptom) of the failure-inducing test:
+![Fail Test](fail-test.png)
 
 
 
