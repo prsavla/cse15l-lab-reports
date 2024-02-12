@@ -12,4 +12,26 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
-Here is a failure inducing input for the 
+Here is a failure inducing input for the method:
+```
+@Test
+  public void testReversed1() {
+    int[] input1 = {1,2,3,4,5};
+    assertArrayEquals(new int[]{5,4,3,2,1},ArrayExamples.reversed(input1));
+    }
+```
+Here is an input that does not induce a failure:
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    
+  }
+```
+Here is the JUnit output (Symptom) of the failure-inducing test:
+
+
+
+
+
