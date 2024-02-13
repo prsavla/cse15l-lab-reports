@@ -56,6 +56,7 @@ Here is the resulting output of ChatGPT:
 
 **Below you will find examples of how I applied this to my own code:**
 
+# First Command Line Argument + 2 Examples 
 1) The first interesting command line argument to use with file is -mtime which allows you to search for files based on their modification time.
    Here is the general scafollding: `find /path/to/search -mtime -7`. Will search for files modified within the last 7 days.
 
@@ -75,6 +76,7 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
 When setting up this example, I modified chapter 1 and chapter 2 so I could produce some output.
 
+# 2nd Command Line Argument + 2 Examples
 2) The next interesting command line argument to use with file is -size which allows you to search for files based on their size. Here is the general scaffolding for that: `find /path/to/search -size +1M` You can search with gigabytes, megabytes, etc.
 
 ```
@@ -96,6 +98,7 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
 There were no files greater than 1GB in ./technical/911report. 
 
+# 3rd Command Line Argument + 2 Examples
 3) Using find with -empty allows you to search for empty files and directories.
    I went ahead and made an empty file for the purposes of this demonstration and an empty directory as well.
 ```
@@ -109,6 +112,8 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -empty
 ./technical/911report/empty-directory
 Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
+
+# 4th Command Line Argument + 2 Examples
 4) Using find with -exec and basename allows you to just print the name of the files and not the paths. Here is the general scaffolding for the command: `find ./pathToFind -type f -exec basename {} \;` Here are two examples:
  ```
    Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -type f -exec basename {} \;
