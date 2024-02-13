@@ -116,7 +116,8 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
 # 4th Command Line Argument + 2 Examples
 4) Using find with -exec and basename allows you to just print the name of the files and not the paths. Here is the general scaffolding for the command: `find ./pathToFind -type f -exec basename {} \;` Here are two examples:
  ```
-   Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -type f -exec basename {} \;
+   Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -type f
+    -exec basename {} \;
     chapter-13.4.txt
     chapter-13.5.txt
     chapter-13.1.txt
@@ -138,7 +139,8 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
 This lists all the files in 911 report without the path name.
 ```
-Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/plos -type f -exec basename {} \;
+Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/plos
+-type f -exec basename {} \;
 pmed.0020273.txt
 journal.pbio.0030032.txt
 pmed.0020065.txt
