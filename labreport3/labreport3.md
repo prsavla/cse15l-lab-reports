@@ -54,16 +54,6 @@ Here is the resulting output of ChatGPT:
 ![output1](chatgpt2.png)
 
 
-I was getting an error message with the 4th example so I asked ChatGPT this:
-![errorPrompt](chatgptErrorPrompt.png)
-
-And this was the resulting output that led me to fix my 4th example with -exec:
-
-![output2](chatgpt3.png)
-
-It turns out -printf does not work quite well on MacOS.
-
-
 **Below you will find examples of how I applied this to my own code:**
 
 1) The first interesting command line argument to use with file is -mtime which allows you to search for files based on their modification time.
@@ -173,9 +163,11 @@ journal.pbio.0020035.txt
 There was more terminal output but I shortened it for style reasons. The above command lists all the files in ./technical/plos.
 
    
-   
+I was getting an error message with specifically this example so I asked ChatGPT on how to fix it:
+![errorPrompt](chatgptErrorPrompt.png)
 
+And this was the resulting output that led me to fix my 4th example with -exec:
 
+![output2](chatgpt3.png)
 
-
-
+It turns out -printf does not work quite well on MacOS which was the original argument suggested by ChatGPT.
