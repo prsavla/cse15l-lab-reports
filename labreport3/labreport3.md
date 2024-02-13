@@ -47,9 +47,10 @@ The main issue behind the `reversed()` method was that although `newArray` was b
 
 # Part 2 - Researching Commands
 The command I will be choosing to research is the `find` command. In the interest of full transparency, my research came from using ChatGPT. Here is the prompt I gave ChatGPT:
-![Prompt](chatgpt1.png)
+![Prompt](chatgpt0.png)
 
 Here is the resulting output of ChatGPT:
+![Prompt](chatgpt1.png)
 ![output1](chatgpt2.png)
 ![output2](chatgpt3.png)
 
