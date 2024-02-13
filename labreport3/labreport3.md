@@ -52,10 +52,18 @@ The command I will be choosing to research is the `find` command. In the interes
 Here is the resulting output of ChatGPT:
 ![Prompt](chatgpt1.png)
 ![output1](chatgpt2.png)
-![output2](chatgpt3.png)
+
+
+I was getting an error message with the 4th example so I asked ChatGPT this:
+![errorPrompt](chatgptErrorPrompt.png)
+
+And this was the resulting output that led me to fix my 4th example with -exec:
 
 
 Below you will find examples of how I applied this to my own code:
+![output2](chatgpt3.png)
+
+It turns out -printf does not work quite well on MacOS.
 
 
 1) The first interesting command line argument to use with file is -mtime which allows you to search for files based on their modification time.
