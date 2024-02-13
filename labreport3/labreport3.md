@@ -47,6 +47,13 @@ The main issue behind the `reversed()` method was that although `newArray` was b
 
 # Part 2 - Researching Commands
 The command I will be choosing to research is the `find` command. In the interest of full transparency, my research came from using ChatGPT. Here is the prompt I gave ChatGPT:
+![Prompt](chatgpt1.png)
+
+Here is the resulting output of ChatGPT:
+![output1](chatgpt2.png)
+![output2](chatgpt3.png)
+
+
 
 1) The first interesting command line argument to use with file is -mtime which allows you to search for files based on their modification time.
    Here is the general scafollding: `find /path/to/search -mtime -7`. Will search for files modified within the last 7 days.
