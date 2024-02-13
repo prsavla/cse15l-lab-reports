@@ -54,6 +54,8 @@ Here is the resulting output of ChatGPT:
 ![output2](chatgpt3.png)
 
 
+Below you will find examples of how I applied this to my own code:
+
 
 1) The first interesting command line argument to use with file is -mtime which allows you to search for files based on their modification time.
    Here is the general scafollding: `find /path/to/search -mtime -7`. Will search for files modified within the last 7 days.
