@@ -137,7 +137,7 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
     chapter-11.txt
     Prathams-MacBook-Air-2:docsearch prathamsavla$ 
 ```
-This lists all the files in 911 report without the path name.
+This lists all the files in `911 report` without the path name.
 ```
 Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/plos
 -type f -exec basename {} \;
