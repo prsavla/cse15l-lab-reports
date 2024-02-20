@@ -173,7 +173,7 @@ There was more terminal output but I shortened it for style reasons. The above c
 I was getting an error message with specifically this example so I asked ChatGPT on how to fix it:
 ![errorPrompt](chatgptErrorPrompt.png)
 
-And this was the resulting output that led me to fix my 4th example with -exec:
+And this was the resulting output that led me to fix my 4th example with `-exec`:
 
 ![output2](chatgpt3.png)
 
