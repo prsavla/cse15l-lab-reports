@@ -1,7 +1,7 @@
 # Lab Report 3 - Bugs and Commands (Week 5)
 ## Pratham Savla
 
-The bug I will be choosing from week 4's lab is in the ArrayExamples class and specifically the reversed method.
+The bug I will be choosing from Week 4's Lab is in the `ArrayExamples` class and specifically the `reversed()` method.
 This is the original code with the bug:
 ```
 static int[] reversed(int[] arr) {
@@ -66,7 +66,7 @@ I went ahead and modified one of the files in technical to get some output.
     ./technical/biomed/1468-6708-3-1.txt
     Prathams-MacBook-Air-2:docsearch prathamsavla$ 
    ```
-The above command finds all the files in ./technical/biomed that have been modified within the past 24 hours. 
+The above command finds all the files in `./technical/biomed` that have been modified within the past 24 hours. 
 Example #2
 ```
 Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -mtime -1
@@ -90,16 +90,16 @@ When setting up this example, I modified chapter 1 and chapter 2 so I could prod
     ./technical/biomed/1471-2105-3-2.txt
     Prathams-MacBook-Air-2:docsearch prathamsavla$ 
 ```
-This searches for all files in ./technical/biomed that are greater than 75 kilobytes.
+This searches for all files in `./technical/biomed` that are greater than 75 kilobytes.
 
 ```
 Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report  -size +1G
 Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
-There were no files greater than 1GB in ./technical/911report. 
+There were no files greater than 1GB in `./technical/911report`. 
 
 # 3rd Command Line Argument + 2 Examples
-3) Using find with -empty allows you to search for empty files and directories.
+3) Using find with `-empty` allows you to search for empty files and directories.
    I went ahead and made an empty file for the purposes of this demonstration and an empty directory as well.
 ```
    Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/biomed -empty
@@ -114,7 +114,7 @@ Prathams-MacBook-Air-2:docsearch prathamsavla$
 ```
 
 # 4th Command Line Argument + 2 Examples
-4) Using find with -exec and basename allows you to just print the name of the files and not the paths. Here is the general scaffolding for the command: `find ./pathToFind -type f -exec basename {} \;` Here are two examples:
+4) Using find with `-exec` and `basename` allows you to just print the name of the files and not the paths. Here is the general scaffolding for the command: `find ./pathToFind -type f -exec basename {} \;` Here are two examples:
  ```
    Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -type f
     -exec basename {} \;
@@ -167,7 +167,7 @@ pmed.0020098.txt
 journal.pbio.0020035.txt
 ...
 ```
-There was more terminal output but I shortened it for style reasons. The above command lists all the files in ./technical/plos.
+There was more terminal output but I shortened it for style reasons. The above command lists all the files in `./technical/plos`.
 
    
 I was getting an error message with specifically this example so I asked ChatGPT on how to fix it:
@@ -177,4 +177,4 @@ And this was the resulting output that led me to fix my 4th example with -exec:
 
 ![output2](chatgpt3.png)
 
-It turns out -printf does not work quite well on MacOS which was the original argument suggested by ChatGPT.
+It turns out `-printf` does not work quite well on MacOS which was the original argument suggested by ChatGPT.
