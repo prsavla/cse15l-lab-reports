@@ -67,6 +67,7 @@ I went ahead and modified one of the files in technical to get some output.
     Prathams-MacBook-Air-2:docsearch prathamsavla$ 
    ```
 The above command finds all the files in `./technical/biomed` that have been modified within the past 24 hours. 
+
 Example #2
 ```
 Prathams-MacBook-Air-2:docsearch prathamsavla$ find ./technical/911report -mtime -1
