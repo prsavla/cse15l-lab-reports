@@ -29,7 +29,7 @@ Here's an image of what entering vim looks like:
 
 
 
-Here is the exact pattern of keystrokes after typing in VIM:
+Here is the exact pattern of keystrokes after typing in `vim ListExamples.java` and then `<enter>`:
 
 1) `43J` ,
 2) Then  `E`,
