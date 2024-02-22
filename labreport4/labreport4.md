@@ -17,10 +17,13 @@ Step 5:
 
 Step 6:
 `bash test.sh` then `<enter>`
-`[Image] Insert image of test cases failing
+![test cases failing](image3.png)
+
 
 Step 7:
 `vim ListExamples.java` then `<enter>` 
+
+
 
 Edit the code to fix the test
 Here is the exact pattern of keystrokes after typing in VIM:
