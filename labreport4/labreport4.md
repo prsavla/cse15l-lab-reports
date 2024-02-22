@@ -43,8 +43,8 @@ Step 9: Commit and Push the Resulting Change to My Github Account
 - Type `git commit -m "fixed bug in ListExamples.java`then `<enter>` 
 - Type`git push` then `<enter>`
 
-[git add](image5.png)
-[git commit](image6.png)
+![git add](image5.png)
+![git commit](image6.png)
 
 Here's an explanation for these commands:
 `git add --all` adds all of the edits and new files to the current commit
