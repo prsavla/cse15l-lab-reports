@@ -22,12 +22,22 @@ Step 6:
 
 Step 7:
 `vim ListExamples.java` then `<enter>` 
+Here's an image of what entering vim looks like:
+![vim](vim.png)
 
 
 
-Edit the code to fix the test
+
+
 Here is the exact pattern of keystrokes after typing in VIM:
-`43J` , then  `E`, then  `R`, then `2` , then `:wq` then `<enter>`
+
+1) `43J` ,
+2) Then  `E`,
+3) Then  `R`,
+4) Then `2` ,
+5) Then `:wq`
+6) Then `<enter>`
+   
 Let me explain how these steps work to fix the bug in ListExamples.
 `43J` will move the cursor down to the 43rd line where the bug exits.
 `E` will go to the end of the word so the cursor will be on the 1 in `index1`.
