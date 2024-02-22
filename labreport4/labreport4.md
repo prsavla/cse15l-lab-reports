@@ -8,6 +8,7 @@ Step 4:
 ssh prchheda@ieng6-201.ucsd.edu
 ```
 The reason I used `-201` is because I was initially having trouble with the `-203` server and the TA's recommended switching over.
+![ssh image](image1.png)
 
 
 Step 5:
