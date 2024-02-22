@@ -36,17 +36,22 @@ Let me explain how these steps work to fix the bug in ListExamples.
 
 Step 8: Rerun the tests to see if they passes
 `bash test.sh` then `<enter>` 
-- Insert Screenshot
+[all tests passing](image4.png)
 
 Step 9: Commit and Push the Resulting Change to My Github Account
 - Type `git add --all` then `<enter>` 
 - Type `git commit -m "fixed bug in ListExamples.java`then `<enter>` 
 - Type`git push` then `<enter>`
 
+[git add](image5.png)
+[git commit](image6.png)
+
 Here's an explanation for these commands:
 `git add --all` adds all of the edits and new files to the current commit
 `git commit -m "fixed bug...` commits the changes that you made to your local repository with a required commit message
 `git push` syncs your local repository with github. 
+
+
 
 
 
