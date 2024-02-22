@@ -13,7 +13,7 @@ The reason I used `-201` is because I was initially having trouble with the `-20
 
 Step 5:
 `git clone git@github.com:prsavla/lab7.git` then `<enter>`
-![Image] Insert image of using git clone
+![git clone](image2.png) 
 
 Step 6:
 `bash test.sh` then `<enter>`
