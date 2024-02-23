@@ -58,9 +58,9 @@ Step 9: Commit and Push the Resulting Change to My Github Account
 ![git commit](image6.png)
 
 Here's an explanation for these commands:
-`git add --all` adds all of the edits and new files to the current commit
-`git commit -m "fixed bug...` commits the changes that you made to your local repository with a required commit message
-`git push` syncs your local repository with github. 
+1) `git add --all` adds all of the edits and new files to the current commit
+2) `git commit -m "fixed bug...` commits the changes that you made to your local repository with a required commit message
+3) `git push` syncs your local repository with github. 
 
 
 
