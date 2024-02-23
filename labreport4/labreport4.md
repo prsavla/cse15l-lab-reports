@@ -39,10 +39,11 @@ Here is the exact pattern of keystrokes after typing in `vim ListExamples.java` 
 6) Then `<enter>`
    
 Let me explain how these steps work to fix the bug in ListExamples.
-1) `43J` will move the cursor down to the 43rd line where the bug exits.
-2) `E` will go to the end of the word so the cursor will be on the 1 in `index1`.
-3) `R` will go into replace and when followed with `2` it will replace `1` with `2`.
-4) `:wq` will save and quite the file. 
+1) `43J` will move the cursor down to the 43rd line where the bug exists.
+   The 43rd line is `   index1 += 1;`
+3) `E` will go to the end of the word so the cursor will be on the 1 in `index1`.
+4) `R` will go into replace and when followed with `2` it will replace `1` with `2`.
+5) `:wq` will save and quite the file. 
 
 Step 8: Rerun the tests to see if they passes
 `bash test.sh` then `<enter>` 
