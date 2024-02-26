@@ -2,6 +2,7 @@
 ## Pratham Savla
 
 ### Replicate Steps 4 - 9
+Overview: In this lab report, I will be replicating Steps 4-9 of the Week 7 Lab. Provided are the commands, my keystrokes, and the explanations for each of the commands. 
 
 Step 4:
 ```
