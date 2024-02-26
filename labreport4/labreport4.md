@@ -1,7 +1,7 @@
 # Lab Report 4 - Doing it All from the Command Line  (Week 7)
 ## Pratham Savla
 
-### Replicate Steps 4 - 7 
+### Replicate Steps 4 - 9
 
 Step 4:
 ```
@@ -12,10 +12,14 @@ The reason I used `-201` is because I was initially having trouble with the `-20
 
 
 Step 5:
+I found the Github SSH url from the fork of my repository
 `git clone git@github.com:prsavla/lab7.git` then `<enter>`
 ![git clone](image2.png) 
 
 Step 6:
+First, change working directory to `/home/lab7` which can be accomplished by typing 
+`cd lab7` and then `<enter>`. 
+Next, type this:
 `bash test.sh` then `<enter>`
 ![test cases failing](image3.png)
 
@@ -25,20 +29,16 @@ Step 7:
 Here's an image of what entering vim looks like:
 ![vim](vim.png)
 
+Here is the exact pattern of keystrokes I typed after executing `vim ListExamples.java` and then `<enter>`:
 
-
-
-
-Here is the exact pattern of keystrokes after typing in `vim ListExamples.java` and then `<enter>`:
-
-1) `43J` ,
+**1) `43J` ,
 2) Then  `E`,
 3) Then  `R`,
 4) Then `2` ,
 5) Then `:wq`
-6) Then `<enter>`
+6) Then `<enter>`**
    
-Let me explain how these steps work to fix the bug in ListExamples.
+**Let me explain how these steps work to fix the bug in ListExamples.**
 1) `43J` will move the cursor down to the 43rd line where the bug exists.
    The 43rd line is `   index1 += 1;`
 3) `E` will go to the end of the word so the cursor will be on the `1` in `index1`.
