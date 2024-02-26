@@ -48,7 +48,7 @@ Here is the exact pattern of keystrokes I typed after executing `vim ListExample
 
 Step 8: Rerun the tests to see if they passes
 `bash test.sh` then `<enter>` 
-[all tests passing](image4.png)
+![all tests passing](image4.png)
 
 Step 9: Commit and Push the Resulting Change to My Github Account
 - Type `git add --all` then `<enter>` 
