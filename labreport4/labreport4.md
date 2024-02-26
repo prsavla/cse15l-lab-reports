@@ -46,7 +46,7 @@ Here is the exact pattern of keystrokes I typed after executing `vim ListExample
 4) `R` will go into replace and when followed with `2` it will replace `1` with `2`.
 5) `:wq` will save and quite the file. 
 
-Step 8: Rerun the tests to see if they passes
+Step 8: Rerun the tests to see if they pass! 
 `bash test.sh` then `<enter>` 
 ![all tests passing](image4.png)
 
