@@ -20,7 +20,7 @@ I found the Github SSH url from the fork of my repository
 Step 6:
 First, change working directory to `/home/lab7` which can be accomplished by typing 
 `cd lab7` and then `<enter>`. 
-Next, type this:
+Next, type:
 `bash test.sh` then `<enter>`
 ![test cases failing](image3.png)
 
