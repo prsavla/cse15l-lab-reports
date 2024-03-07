@@ -4,7 +4,8 @@
 ## Part 1: Debugging Scenario:
 Example Conversation on Ed-Stem |
 
-Beto Ansame (Student): I keep failing my test for ListExamples.java for the merge() method. It says "expected:<[a, a, b, c, d]> but was:<[a, b, c, d]>. Here is a screenshot of the JUnit output for the test. My guess is that there is some issue with duplicate values when you enter "a,a" twice but I'm not sure. Can you help me fix it? 
+**Beto Ansame (Student):** I keep failing my test for ListExamples.java for the merge() method. It says "expected:<[a, a, b, c, d]> but was:<[a, b, c, d]>. Here is a screenshot of the JUnit output for the test. My guess is that there is some issue with duplicate values when you enter "a,a" twice but I'm not sure. Can you help me fix it? 
+
 
 [Insert Image]. 
 
