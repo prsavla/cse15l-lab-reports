@@ -25,7 +25,7 @@ Here is a screenshot of the `merge()` method.
 It seems that there is an issue with your `merge()` method where you handle duplicates around Lines 32-25. Try and trace through the code, what happens when the `if (compared == 0)` executes? Are the correct duplicate values being appended to the result list? Run through it with the examples of using these values as your inputs: `list1 = "a, b, c "` and `list2 = "a, d"` See what happens with your output. 
 
 ### 5. Beto Ansame: 
-OHH! I understand. Since there's two duplicate values, I only appended one of them from `list1` on Line 33 and I forgot to append the other duplicate value from `list2`. I have fixed the error and attached a screenshot of the fixed version below, could you run the autograder again on my code?
+OHH! I understand. Since there's two duplicate values, I only appended one of them from `list1` to result on Line 33 and I forgot to append the other duplicate value from `list2`. I have fixed the error and attached a screenshot of the fixed version below, could you run the autograder again on my code?
 ![fixed-merge](fixed-merge.png)
 
 
