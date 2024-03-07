@@ -11,7 +11,7 @@ I keep failing my test for ListExamples.java for the merge() method. It says `"e
 ![failedTest](test-failing.png)
 
 ### 2. Professional TA: 
-When running our autograder on your code, this is the resulting output (See screenshow below). It seems that you have failed one of our tests resulting in you grade of 2/3 or 66% . Could you please provide a screenshot of your merge() method inside of your ListExamples.java file so that I can help you better? 
+When running our autograder on your code, this is the resulting output (See screenshow below). It seems that you have failed one of our tests resulting in you grade of 2/3 or 66% . Could you please provide a screenshot of your `merge()` method inside of your `ListExamples.java` file so that I can help you better? 
 
 ![autograderFailing](autograder-failing.png)
 
