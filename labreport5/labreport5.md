@@ -17,7 +17,7 @@ When running our autograder on your code, this is the resulting output (See scre
 
 
 ### 3. Beto Ansame: 
-Here is a screenshot of the merge() method. 
+Here is a screenshot of the `merge()` method. 
 ![merge](student-merge-method.png)
 
 
