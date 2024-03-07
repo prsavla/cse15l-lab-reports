@@ -7,7 +7,7 @@ Example Conversation on Ed-Stem |
 **Beto Ansame (Student):** I keep failing my test for ListExamples.java for the merge() method. It says "expected:<[a, a, b, c, d]> but was:<[a, b, c, d]>. Here is a screenshot of the JUnit output for the test. My guess is that there is some issue with duplicate values when you enter "a,a" twice but I'm not sure. Can you help me fix it? 
 
 
-[Insert Image]. 
+![failedTest](test-failing.png). 
 
 Professional TA: When running our autograder on your code, this is the resulting output (See screenshow below). It seems that you have failed one of our tests resulting in you grade of 2/3 or 66% . Could you please provide a screenshot of your merge() method inside of your ListExamples.java file so that I can help you better? 
 
